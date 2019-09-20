@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  
+    <head>
+        
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <title> Main Website </title>
+        <style>
+        .ul1{
+            list-style: none;
+            margin: 0;
+            padding:0;
+            width:25%;
+            height: 100%;
+            
+            position: fixed;
+            float: right;
+        }
+
+        .li1 a{
+            text-decoration: none;
+            display: block;
+            background-color:yellow;
+            color: white;
+            padding: 3px;
+        }
+
+        .li1 a:hover{
+            background-color: white;
+            color:black;
+        }
+        .content{
+            width:80%;
+        
+            float: right;
+            padding: 5px;
+            margin-left: 25%;
+        
+        }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+            
+            <div class="row">
+                
+                    <div class="col-sm-3" style="background-color:black; width:20%;  overflow-y:scroll;">   
+                        
+                            <ul class="nav flex-column" style="position:fixed;">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" href="#">Active</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link disabled" href="#">Disabled</a>
+                                    </li>
+                                  </ul>
+                    </div>
+                
+
+                    <div class="col-md-9" style="width: 80%; float:right;">
+                        
+                        
+                            <nav class="navbar navbar-expand-lg navbar-light bg-custom " style = "font-size: 10pt;margin-top: 20px; font-family:Georgia, 'Times New Roman', Times, serif; ">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                                <a class="nav-link" href="#">Models <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="#">New Arrivals </a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Old Cars for Sale
+                                        
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="#"> Price Check</a>
+                                                <a class="dropdown-item" href="#"> Usage Details</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#"> Availability for service</a>
+                                            </div>
+
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                        </li>
+                                    </ul>
+                                            
+                                    <form class="form-inline my-2 my-lg-0">
+                                                <input class="form-control mr-sm-2" type="search" placeholder="Search here" aria-label="Search">
+                                                <button type="button" class="btn btn-dark" >Search</button>
+                                    </form>
+                                
+                                </div>
+                            </nav>
+                        
+
+                        <div class="row" >
+                            <section>
+                                        <div class= "row">
+                                                <div class = "container">
+                                                        <div class = "row" style = " margin-left: 10px;">    
+                                                            <div id ="carouselExampleIndicators" class = "carousel slide" data-ride = "carousel">
+                                                                    <ol class="carousel-indicators">
+                                                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                                                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                                
+                                                                    </ol>
+                                                                    <div class = "carousel-inner" style = "margin-top: 15px;">
+                                                                        
+                                                                        <div class = "carousel-item active">
+                                                                            <img src = "C:\Users\gparthasara2\Desktop\1.jpg" alt = "Image 1" height = 565px width = 100% >
+                                                                            <div class = "carousel-caption d-none d-md-block">
+                                                                                <h5><strong> SUV</strong> </h5>
+                                                                                <p> Model 00752 </p>
+                                                                            </div>
+                                                                        </div>
+                                                
+                                                                        <div class = "carousel-item">
+                                                                            <img src = "C:\Users\gparthasara2\Desktop\2.jfif" alt = "Image 2" height = 565px width = 100%> 
+                                                                            <div class = "carousel-caption d-none d-md-block">
+                                                                                    <h5><strong> SEDAN</strong> </h5>
+                                                                                    <p> Model 007832 </p>
+                                                                            </div>
+                                                                        </div>
+                                                
+                                                                        <div class = "carousel-item">
+                                                                                <img src = "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/w_596,c_limit,q_auto:best,f_auto/fc/3034007-inline-i-applelogo.jpg" alt = "Image 2" height = 565px width = 100%> 
+                                                                                <div class = "carousel-caption d-none d-md-block">
+                                                                                        <h5><strong> SEDAN</strong> </h5>
+                                                                                        <p> Model 007832 </p>
+                                                                                </div>
+                                                                        </div>
+                                                
+                                                                        <div class = "carousel-item">
+                                                                            <img src = "C:\Users\gparthasara2\Desktop\3.jpg" alt = "Image 3" height = 565px width = 100%>
+                                                                            <div class = "carousel-caption d-none d-md-block">
+                                                                                    <h5><strong> HYUNDAI</strong> </h5>
+                                                                                    <p> Model 0075276 </p>
+                                                                            </div> 
+                                                                        </div>
+                                                
+                                                                        <div class = "carousel-item">
+                                                                                <img src = "C:\Users\gparthasara2\Desktop\endgame1.jpg" alt = "Image 2" height = 565px width = 100%> 
+                                                                                <div class = "carousel-caption d-none d-md-block">
+                                                                                        <h5><strong> SEDAN</strong> </h5>
+                                                                                        <p> Model 007832 </p>
+                                                                                </div>
+                                                                        </div>
+                                                
+                                                                     </div>
+                                                
+                                                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" 
+                                                                    data-slide="prev">
+                                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Previous</span>
+                                                                    </a>
+                                                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" 
+                                                                    data-slide="next">
+                                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Next</span>
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            <div class = "row" style="margin-left: 10px; margin-bottom: 5px;">
+                                                        
+                                                        <div class = "col-md-4" >
+                                                            
+                                                                <div class="card" style="margin-top: 20px; width:20rem; height: 24rem;">
+                                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6zpUHwCTJ8XDj9kQskTAQ1s4AxhdpsFMKce26KRwwgBEdO1BM2g" class="card-img-top" 
+                                                                            alt="" height = 100 width = 100% >
+                                                                    
+                                                                    <div class="card-body"style="text-align:center; margin-top:10px;">
+                                                                        <h5 class="card-title text-uppercase">BMW</h5>
+                                                                        <p class="card-title  text-align" style = "text-align:justify; font-size: 10px;">The BMW is a plug-in hybrid sports car and its powertrain is a combination of a petrol engine and an electric motor with power going to all four wheels. </p>
+                                                                        <a href="#" class="btn btn-dark">Check Availability</a>
+                                                                    </div>
+                        
+                                                                    <div class="card-body" style="text-align:center">
+                                                                        <a href="#" class="card link">Check-out this model</a>
+                                                                        <a href="#" class="card link">More BMW Cars</a>
+                                                                    </div>
+                        
+                                                                </div>
+                        
+                                                        </div>
+                        
+                                                        <div class = "col-md-4">
+                        
+                                                                <div class="card" style="margin-top: 20px;width:20rem; height: 24rem;">
+                                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJmezLAPqeATLSwVsLd4VELZ7wiiK57sjfcpYFQQCmtJmknNP" class="card-img-top" 
+                                                                                alt="" height = 100 width = 100% >
+                                                                        
+                                                                        <div class="card-body"style="text-align:center; margin-top:10px;">
+                                                                            <h5 class="card-title text-uppercase">Nisson</h5>
+                                                                            <p class="card-title  text-align" style = "text-align:justify; font-size: 10px;">The Nissan is a true blooded sports car in the Z car line from Nissan. It replaces the 350Z worldwide, however it is the first Z model to be retailed in India.</p>
+                                                                            <a href="#" class="btn btn-dark">Check Availability</a>
+                                                                        </div>
+                            
+                                                                        <div class="card-body" style="text-align:center">
+                                                                            <a href="#" class="card link">Check-out this model</a>
+                                                                            <a href="#" class="card link">More Nisson Cars</a>
+                                                                        </div>
+                            
+                                                                </div>
+                                                        </div>
+                        
+                                                        <div class = "col-md-4">
+                                                                <div class="card" style="margin-top: 20px;width:20rem; height: 24rem;">
+                                                                    <img src="data:image/jpeg;base64,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" class="card-img-top" 
+                                                                                alt="" height = 100 width = 100% >
+                                                                            
+                                                                            <div class="card-body"style="text-align:center; margin-top:10px;">
+                                                                                <h5 class="card-title text-uppercase">Toyota</h5>
+                                                                                <p class="card-title " style = "text-align:justify; font-size: 10px;">It gets a few new features and a new interior colour option as well. It gives a whole new features from the last edition. Discounts are not applicable.</p>
+                                                                                <a href="#" class="btn btn-dark">Check Availability</a>
+                                                                            </div>
+                                
+                                                                            <div class="card-body" style="text-align:center">
+                                                                                <a href="#" class="card link">Check-out this model</a>
+                                                                                <a href="#" class="card link">More Toyota Cars</a>
+                                                                            </div>
+                                
+                                                                </div>
+                                                        </div>
+                                            </div>
+                                            <div class="row" style="margin-left:10px; margin-bottom: 10px;">
+                                                        <div class = "col-md-4">
+                                                                
+                                                                <div class="card" style="margin-top: 20px;width:20rem; height: 24rem;">
+                                                                    <img src="data:image/jpeg;base64,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" class="card-img-top" 
+                                                                                alt="" height = 100 width = 100% >
+                                                                        
+                                                                        <div class="card-body"style="text-align:center; margin-top:10px;">
+                                                                            <h5 class="card-title text-uppercase">Honda</h5>
+                                                                            <p class="card-title " style = "text-align:justify; font-size: 10px;">Honda City prices start at Rs. 9.75 lakh for petrol and goes upto Rs. 14.16 lakh. The prices of City diesel variants start at Rs. 11.10 lakh and the top-end diesel is priced at Rs. 14.16 lakh. Honda City is available in 15 variants and 6 colours.</p>
+                                                                            <a href="#" class="btn btn-dark">Check Availability</a>
+                                                                        </div>
+                            
+                                                                        <div class="card-body" style="text-align:center">
+                                                                            <a href="#" class="card link">Check-out this model</a>
+                                                                            <a href="#" class="card link">More Honda Cars</a>
+                                                                        </div>
+                            
+                                                                </div>
+                                                        </div>
+                        
+                                                        <div class = "col-md-4">
+                                                                
+                                                                <div class="card" style="margin-top: 20px;width:20rem; height: 24rem;">
+                                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcdfdr_WEKzMp0XR7lLjl4l7MmnE6F7IIjMFLXDMT0I81pmKqs" class="card-img-top" 
+                                                                                alt="" height = 100 width = 100% >
+                                                                        
+                                                                        <div class="card-body"style="text-align:center; margin-top:10px;">
+                                                                            <h5 class="card-title text-uppercase">Buick</h5>
+                                                                            <p class="card-title " style = "text-align:justify; font-size: 10px;">The Buick LaCrosse is a mid-size executive sedan manufactured and marketed by Buick since 2004. The LaCrosse is now in its third generation, slotted above the Buick Regal as the brand's flagship vehicle.</p>
+                                                                            <a href="#" class="btn btn-dark" >Check Availability</a>
+                                                                        </div>
+                            
+                                                                        <div class="card-body" style="text-align:center">
+                                                                            <a href="#" class="card link">Check out this model</a>
+                                                                            <a href="#" class="card link">More Buick Cars</a>
+                                                                        </div>
+                            
+                                                                </div>
+                        
+                                                        </div>
+                        
+                                                        <div class = "col-md-4">
+                                                                
+                                                                <div class="card" style="margin-top: 20px;width:20rem; height: 24rem;">
+                                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0SwskYmafL4eRj8Yl2B8jXmykAyqtR3xFafy0e1ir1xphhcKh" class="card-img-top" 
+                                                                                alt="" height = 100 width = 100%  >
+                                                                        
+                                                                        <div class="card-body"style="text-align:center; margin-top:10px;">
+                                                                            <h5 class="card-title text-uppercase">Chevrolet</h5>
+                                                                            <p class="card-title " style = "text-align:justify; font-size: 10px;">The Chevrolet Tavera is a compact SUV designed solely by Japanese automaker Isuzu until 2007, and in India by American automaker Chevrolet until 2017, when General Motors exited the Indian market.</p>
+                                                                            <a href="#" class="btn btn-dark">Check Availability</a>
+                                                                        </div>
+                            
+                                                                        <div class="card-body" style="text-align:center">
+                                                                            <a href="#" class="card link" >Check-out this model</a>
+                                                                            <a href="#" class="card link" >More Chevrolet Cars</a>
+                                                                        </div>
+                            
+                                                                </div>
+                                                        </div>
+                                            </div>
+                        
+                                                                    
+                                        </div>
+                            </section>
+                        </div>
+                    </div>
+
+            </div>
+            
+
+            <div class="row" style="background-color: black;color:white">
+                <div class = "col-md-3" >
+                        <ul>
+                                <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/navigation.html " >  Link </a></li>
+                                <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/about.html " > Link </a></li>
+                                <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/contact.html " > Link </a></li>
+                        </ul>
+                </div>
+                <div class = "col-md-3" >
+                    <ul>
+                            <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/navigation.html " >  Link </a></li>
+                            <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/about.html " > Link </a></li>
+                            <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/contact.html " > Link </a></li>
+                    </ul>
+                </div>
+                <div class = "col-md-3" >
+                    <ul>
+                            <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/navigation.html " >  Link </a></li>
+                            <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/about.html " > Link </a></li>
+                            <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/contact.html " > Link </a></li>
+                    </ul>
+                </div>
+                <div class = "col-md-3" >
+                    <ul>
+                            <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/navigation.html " >  Link </a></li>
+                            <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/about.html " > Link </a></li>
+                            <li> <a href = "file:///C:/Users/gparthasara2/Desktop/Folders/HTML/contact.html " > Link </a></li>
+                    </ul>
+            </div>
+
+            </div>
+
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </div>
+           
+    </body>
